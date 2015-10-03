@@ -36,6 +36,7 @@ if __name__ == "__main__":
     pc1 = os.system("ping -q -c 1 192.168.1.5 > null")
     pc2 = os.system("ping -q -c 1 192.168.1.8 > null")
     pc3 = os.system("ping -q -c 1 192.168.1.125 > null")
+    #--------------------------------------------------------------
     if prx == 1:
         if pc1 == 0:
             print("PC1 ZAP")
@@ -59,7 +60,8 @@ if __name__ == "__main__":
         cmd3 = "PGY:1"
     else:
         cmd3 = "PGY:0"
-
+    
+    #--------------------------------------------------------------
     if prx == 1:
         print("Zasuvky:",cmd2,cmd3)
     #------- sestaveni cmd line ---------------------------------------------
