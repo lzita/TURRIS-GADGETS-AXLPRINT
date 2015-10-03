@@ -6,7 +6,7 @@ Script je volan z cronu kazdych 5 minut a podle stavu pocitacu zapne/vypne prisl
 Konfigurace a logika je primo v kodu ("stavy pc" a "nastaveni zasuvek")
 Pokud je script spusten s parametrem "1" je na STDOUT poskytovan log o prubehu operace.
 
-Script je provozovan a sponzorovan delaerem Jablotrnu firmou AXL electronics (http://www.axlelectronics.cz)
+Script je provozovan a sponzorovan delaerem Jablotronu firmou AXL electronics (http://www.axlelectronics.cz)
 
 (c) 2015 Ludek ZITA
 """
