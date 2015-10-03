@@ -12,4 +12,10 @@ Konfigurace a logika je primo v kodu axlprint.py ("stavy pc" a "nastaveni zasuve
 Pokud je script spusten s parametrem "1" je na STDOUT poskytovan log o prubehu operace.<br>
 Script je provozovan a sponzorovan delaerem Jablotrnu firmou AXL electronics (http://www.axlelectronics.cz)
 
+<h1>Instalace:</h1>
+Nainstalujte podporu pro DONGLE
+<pre>opkg install kmod-usb-serial-ftdi</pre>
+Nahrajte soubory do příslušných adresářů TURRIS. a souboru axlprint.sh nastavte atribut pro spouštění
+<pre>chmod +x /axlprint/axlprint.sh</pre>
+
 (c) 2015 Ludek ZITA
