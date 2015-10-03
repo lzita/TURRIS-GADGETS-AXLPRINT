@@ -10,7 +10,7 @@ pc2 a pc3 pouzivaji tiskarnu zapojenou do AC-88 PGY
 Script je volan z cronu kazdych 5 minut a podle stavu pocitacu zapne/vypne prislusnou tiskarnu.<br>
 Konfigurace a logika je primo v kodu axlprint.py ("stavy pc" a "nastaveni zasuvek")<br>
 Pokud je script axlprint.py spusten s parametrem "1" je na STDOUT poskytovan log o prubehu operace.<br>
-Script je provozovan a sponzorovan delaerem Jablotrnu firmou AXL electronics (http://www.axlelectronics.cz)
+Script je provozovan a sponzorovan delaerem Jablotronu firmou AXL electronics (http://www.axlelectronics.cz)
 
 <h1>Instalace:</h1>
 Nainstalujte podporu pro DONGLE
